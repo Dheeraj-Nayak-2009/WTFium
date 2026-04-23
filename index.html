@@ -524,6 +524,19 @@ function renderPeriodicTable() {
         tile.style.gridRow = 9;
         table.appendChild(tile);
     });
+
+
+    const label1 = document.createElement('div');
+        label1.textContent = "Lanthanides";
+        label1.style.gridColumn = "1 / span 3";
+        label1.style.gridRow = 8;
+        table.appendChild(label1);
+        
+        const label2 = document.createElement('div');
+        label2.textContent = "Actinides";
+        label2.style.gridColumn = "1 / span 3";
+        label2.style.gridRow = 9;
+        table.appendChild(label2);
 }
         
         // Open modal with element details
@@ -572,17 +585,7 @@ function renderPeriodicTable() {
         // Initialize
         loadElements();
 
-        const label1 = document.createElement('div');
-        label1.textContent = "Lanthanides";
-        label1.style.gridColumn = "1 / span 3";
-        label1.style.gridRow = 8;
-        table.appendChild(label1);
         
-        const label2 = document.createElement('div');
-        label2.textContent = "Actinides";
-        label2.style.gridColumn = "1 / span 3";
-        label2.style.gridRow = 9;
-        table.appendChild(label2);
     </script>
 </body>
 </html>
