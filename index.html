@@ -27,6 +27,9 @@
             --cat-metalloid: #e4ddd8;
             --cat-halogen: #e0e8e4;
             --cat-metal: #d8dde4;
+            --cat-transition: #d8e2ec;
+            --cat-lanthanide: #e8e2f0;
+            --cat-actinide: #f0e2e2;
         }
         
         * {
@@ -180,6 +183,18 @@
         
         .element[data-category="Post-transition metal"] {
             background: var(--cat-metal);
+        }
+
+        .element[data-category="Transition metal"] {
+            background: var(--cat-transition);
+        }
+        
+        .element[data-category="Lanthanide"] {
+            background: var(--cat-lanthanide);
+        }
+        
+        .element[data-category="Actinide"] {
+            background: var(--cat-actinide);
         }
         
         /* Position elements in the grid */
@@ -439,32 +454,77 @@
                 console.error('Error loading elements:', error);
             }
         }
+
+function createElementTile(element) {
+    const tile = document.createElement('div');
+    tile.className = 'element';
+
+    tile.setAttribute('data-category', element.category);
+    tile.setAttribute('data-group', element.group);
+    tile.setAttribute('data-period', element.period);
+
+    // Only position main table elements
+    if (element.group && element.period) {
+        tile.style.gridColumn = element.group;
+        tile.style.gridRow = element.period;
+    }
+
+    tile.innerHTML = `
+        <div class="atomic-number">${element.atomic_number}</div>
+        <div class="symbol">${element.symbol}</div>
+        <div class="name">${element.name}</div>
+    `;
+
+    tile.addEventListener('click', () => openModal(element));
+
+    return tile;
+}
         
-        // Render the periodic table
-        function renderPeriodicTable() {
-            const table = document.getElementById('periodicTable');
-            table.innerHTML = '';
-            
-            elementsData.forEach(element => {
-                const tile = document.createElement('div');
-                tile.className = 'element';
-                tile.setAttribute('data-category', element.category);
-                tile.setAttribute('data-group', element.group);
-                tile.setAttribute('data-period', element.period);
-                tile.style.gridColumn = element.group;
-                tile.style.gridRow = element.period;
-                
-                tile.innerHTML = `
-                    <div class="atomic-number">${element.atomic_number}</div>
-                    <div class="symbol">${element.symbol}</div>
-                    <div class="name">${element.name}</div>
-                `;
-                
-                tile.addEventListener('click', () => openModal(element));
-                
-                table.appendChild(tile);
-            });
+// Render the periodic table
+function renderPeriodicTable() {
+    const table = document.getElementById('periodicTable');
+    table.innerHTML = '';
+
+    const lanthanides = [];
+    const actinides = [];
+
+    elementsData.forEach(element => {
+        // Separate f-block
+        if (element.category === 'Lanthanide') {
+            lanthanides.push(element);
+            return;
         }
+        if (element.category === 'Actinide') {
+            actinides.push(element);
+            return;
+        }
+
+        const tile = createElementTile(element);
+        table.appendChild(tile);
+    });
+
+    // Add spacer row
+    const spacer = document.createElement('div');
+    spacer.style.gridColumn = "1 / span 18";
+    spacer.style.height = "10px";
+    table.appendChild(spacer);
+
+    // Lanthanides row (row 8)
+    lanthanides.forEach((el, i) => {
+        const tile = createElementTile(el);
+        tile.style.gridColumn = i + 4; // starts under group 3
+        tile.style.gridRow = 8;
+        table.appendChild(tile);
+    });
+
+    // Actinides row (row 9)
+    actinides.forEach((el, i) => {
+        const tile = createElementTile(el);
+        tile.style.gridColumn = i + 4;
+        tile.style.gridRow = 9;
+        table.appendChild(tile);
+    });
+}
         
         // Open modal with element details
         function openModal(element) {
