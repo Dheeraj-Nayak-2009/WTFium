@@ -1,119 +1,119 @@
-atomic_number,symbol,name,atomic_mass,category,phase,group,period,description
-1,H,Hustlium,1.008,Work Culture,Gas,1,1,"Glorifies being busy 24/7"
-2,He,Hypeium,4.0026,Social Media,Gas,18,1,"Overhyped trends that fade fast"
-3,Li,Linkedinium,6.94,Corporate,Solid,1,2,"Networking more than working"
-4,Be,Burnoutium,9.0122,Mental Health,Solid,2,2,"Too much effort, zero energy"
-5,B,Biasium,10.81,Society,Solid,13,2,"Hidden prejudice everywhere"
-6,C,Cancelium,12.011,Internet Culture,Solid,14,2,"One mistake and you're gone"
-7,N,Nepotismium,14.007,Society,Gas,15,2,"Success through connections"
-8,O,Outrageium,15.999,Media,Gas,16,2,"Everything becomes controversy"
-9,F,Fakeium,18.998,Social Media,Gas,17,2,"Reality but filtered"
-10,Ne,Newsbaitium,20.180,Media,Gas,18,2,"Clickbait disguised as news"
-11,Na,Narrativium,22.990,Politics,Solid,1,3,"Stories shaped to influence"
-12,Mg,Manipulium,24.305,Media,Solid,2,3,"Facts twisted subtly"
-13,Al,Algorithmium,26.982,Tech,Solid,13,3,"Controls what you see"
-14,Si,Silencium,28.085,Controversy,Solid,14,3,"Issues quietly buried"
-15,P,Propagandium,30.974,Politics,Solid,15,3,"Repeated until believed"
-16,S,Scamium,32.06,Finance,Solid,16,3,"Too good to be true deals"
-17,Cl,Cloutium,35.45,Social Media,Gas,17,3,"Fame over substance"
-18,Ar,Argumentium,39.948,Internet,Gas,18,3,"Debates that never end"
-19,K,Keyboardwarriorium,39.098,Internet,Solid,1,4,"Fights online only"
-20,Ca,Cancelationium,40.078,Internet Culture,Solid,2,4,"Mass boycott mode"
-21,Sc,Scandaliuum,44.956,Media,Solid,3,4,"Exposed overnight"
-22,Ti,Trollium,47.867,Internet,Solid,4,4,"Provokes for attention"
-23,V,Viraliuum,50.942,Social Media,Solid,5,4,"Spreads insanely fast"
-24,Cr,Controversium,51.996,Media,Solid,6,4,"Constant drama cycle"
-25,Mn,Misinformium,54.938,Media,Solid,7,4,"Half-truths everywhere"
-26,Fe,FakeNewsium,55.845,Media,Solid,8,4,"Looks real, isn't"
-27,Co,Collabium,58.933,Influencers,Solid,9,4,"Mutual benefit deals"
-28,Ni,Nepotismium,58.693,Society,Solid,10,4,"Privilege disguised as talent"
-29,Cu,CancelWaveium,63.546,Internet Culture,Solid,11,4,"Everyone gets cancelled"
-30,Zn,Zoomium,65.38,Work Culture,Solid,12,4,"Meetings that waste time"
-31,Ga,Gossipium,69.723,Social,Solid,13,4,"Spreads faster than facts"
-32,Ge,Gaslightium,72.630,Psychology,Solid,14,4,"Makes you doubt reality"
-33,As,Attentionium,74.922,Social Media,Solid,15,4,"Craves validation"
-34,Se,Selfieium,78.971,Social Media,Solid,16,4,"Life through camera"
-35,Br,Brandium,79.904,Marketing,Liquid,17,4,"Identity sold as product"
-36,Kr,Krashium,83.798,Tech,Gas,18,4,"Fails at worst time"
-37,Rb,Touchgrassium,85.468,Internet,Solid,1,5,"Reminder to go offline"
-38,Sr,Streamium,87.62,Entertainment,Solid,2,5,"Endless watching loop"
-39,Y,Youtubeium,88.906,Media,Solid,3,5,"Education + distraction"
-40,Zr,ZeroAccountabilityium,91.224,Society,Solid,4,5,"No consequences"
-41,Nb,Newsbreakium,92.906,Media,Solid,5,5,"Always breaking news"
-42,Mo,Monetizeium,95.95,Content,Solid,6,5,"Everything for profit"
-43,Tc,Trendchaseium,98,Social Media,Solid,7,5,"Chasing relevance"
-44,Ru,Rumorium,101.07,Social,Solid,8,5,"Spreads unchecked"
-45,Rh,Rhetoricium,102.91,Politics,Solid,9,5,"Talk with no action"
-46,Pd,PRdisasterium,106.42,Corporate,Solid,10,5,"Brand image collapse"
-47,Ag,Agendaum,107.87,Politics,Solid,11,5,"Hidden motives"
-48,Cd,CancelDramaium,112.41,Internet Culture,Solid,12,5,"Messy online fights"
-49,In,Influenceium,114.82,Social Media,Solid,13,5,"Persuades masses"
-50,Sn,Snapjudgementium,118.71,Society,Solid,14,5,"Quick assumptions"
-51,Sb,Soundbiteium,121.76,Media,Solid,15,5,"Clipped statements"
-52,Te,Trendium,127.60,Social Media,Solid,16,5,"Temporary hype"
-53,I,Ideologium,126.90,Politics,Solid,17,5,"Divides opinions"
-54,Xe,Xenophobium,131.29,Society,Gas,18,5,"Fear of outsiders"
-55,Cs,CancelStormium,132.91,Internet Culture,Solid,1,6,"Mass outrage waves"
-56,Ba,Backlashium,137.33,Public Opinion,Solid,2,6,"Reaction hits back"
-57,La,Lobbyium,138.91,Politics,Solid,3,6,"Money influences power"
-58,Ce,Censorshipium,140.12,Media,Solid,,6,"Information restricted"
-59,Pr,Propagandium,140.91,Politics,Solid,,6,"Repeated messaging"
-60,Nd,Narrativeium,144.24,Media,Solid,,6,"Story manipulation"
-61,Pm,Polarizeium,145,Society,Solid,,6,"Creates division"
-62,Sm,Spinmasterium,150.36,Politics,Solid,,6,"Twists situations"
-63,Eu,Echochamberium,151.96,Social Media,Solid,,6,"Same opinions repeated"
-64,Gd,Gatekeepium,157.25,Internet,Solid,,6,"Restricts access"
-65,Tb,Trendbaitium,158.93,Content,Solid,,6,"Designed for clicks"
-66,Dy,Doxxium,162.50,Internet,Solid,,6,"Leaks personal info"
-67,Ho,HotTakeium,164.93,Social Media,Solid,,6,"Provokes reactions"
-68,Er,Engagebaitium,167.26,Content,Solid,,6,"Forces interaction"
-69,Tm,Threadium,168.93,Social Media,Solid,,6,"Endless chains"
-70,Yb,Yapium,173.05,Internet,Solid,,6,"Talking without meaning"
-71,Lu,Lurkium,174.97,Internet,Solid,,6,"Watching silently"
-72,Hf,Hypecycleium,178.49,Tech,Solid,4,6,"Trend rise and fall"
-73,Ta,Takeoverium,180.95,Corporate,Solid,5,6,"Big companies expand"
-74,W,Whistleblowium,183.84,Corporate,Solid,6,6,"Secrets exposed"
-75,Re,Rebrandium,186.21,Corporate,Solid,7,6,"Image refresh"
-76,Os,Outsourcium,190.23,Corporate,Solid,8,6,"Work shifted elsewhere"
-77,Ir,Influencerium,192.22,Social Media,Solid,9,6,"Sells everything"
-78,Pt,Paywallium,195.08,Media,Solid,10,6,"Content locked"
-79,Au,Authorityium,196.97,Power,Solid,11,6,"Controls decisions"
-80,Hg,Hackium,200.59,Cyber,Liquid,12,6,"Systems breached"
-81,Tl,Timelineium,204.38,Social Media,Solid,13,6,"Endless scrolling"
-82,Pb,Publicityium,207.2,Media,Solid,14,6,"Constant visibility"
-83,Bi,Biasium,208.98,Media,Solid,15,6,"Skewed perspectives"
-84,Po,Pollutionium,209,Environment,Solid,16,6,"Damages surroundings"
-85,At,Attentionium,210,Social Media,Solid,17,6,"Needs spotlight"
-86,Rn,Rumblorium,222,Internet,Gas,18,6,"Chaotic discussions"
-87,Fr,Frenzyium,223,Society,Solid,1,7,"Mass panic"
-88,Ra,Rageium,226,Internet,Solid,2,7,"Anger everywhere"
-89,Ac,Activismium,227,Society,Solid,3,7,"Calls for change"
-90,Th,Thinkpieceium,232.04,Media,Solid,,7,"Over-analysis articles"
-91,Pa,Panelium,231.04,Media,Solid,,7,"Endless debates"
-92,U,Uploadium,238.03,Content,Solid,,7,"Posting constantly"
-93,Np,Newsflashium,237,Media,Solid,,7,"Breaking alerts"
-94,Pu,Publicforumium,244,Internet,Solid,,7,"Open debates"
-95,Am,Amplifyium,243,Social Media,Solid,,7,"Boosts voices"
-96,Cm,Commentarium,247,Internet,Solid,,7,"Opinion overload"
-97,Bk,Backtrackium,247,Politics,Solid,,7,"Statements reversed"
-98,Cf,Conflictium,251,Society,Solid,,7,"Clashing views"
-99,Es,Escalateium,252,Conflict,Solid,,7,"Situation worsens"
-100,Fm,Factcheckium,257,Media,Solid,,7,"Verifies claims"
-101,Md,Mediawarrium,258,Media,Solid,,7,"Channels competing"
-102,No,Notedium,259,Corporate,Solid,,7,"Acknowledged only"
-103,Lr,Leakium,266,Corporate,Solid,,7,"Secrets revealed"
-104,Rf,Reelium,267,Social Media,Solid,4,7,"Short video addiction"
-105,Db,Debateium,268,Politics,Solid,5,7,"Never-ending arguments"
-106,Sg,Spincontrolium,269,Politics,Solid,6,7,"Narratives managed"
-107,Bh,Breakdownium,270,Mental Health,Solid,7,7,"Emotional crash"
-108,Hs,Headlineium,277,Media,Solid,8,7,"Grabs attention"
-109,Mt,Maincharacterium,278,Social Media,Solid,9,7,"Everything about self"
-110,Ds,Downplayium,281,Media,Solid,10,7,"Minimizes issues"
-111,Rg,Rumorchainium,282,Social,Solid,11,7,"Spreads quickly"
-112,Cn,Cancelnetium,285,Internet Culture,Solid,12,7,"Network outrage"
-113,Nh,Newsloopium,286,Media,Solid,13,7,"Repeats endlessly"
-114,Fl,Flashtrendium,289,Social Media,Solid,14,7,"Short-lived hype"
-115,Mc,Massopinionium,290,Society,Solid,15,7,"Crowd mindset"
-116,Lv,Livefeedium,293,Media,Solid,16,7,"Real-time updates"
-117,Ts,Trendstormium,294,Social Media,Solid,17,7,"Sudden viral wave"
-118,Og,Outragefinalium,294,Internet Culture,Gas,18,7,"Peak internet chaos"
+atomic_number,symbol,name,atomic_mass,category,phase,group,period
+1,H,Hydrogen,1.008,Nonmetal,Gas,1,1
+2,He,Helium,4.0026,Noble gas,Gas,18,1
+3,Li,Lithium,6.94,Alkali metal,Solid,1,2
+4,Be,Beryllium,9.0122,Alkaline earth metal,Solid,2,2
+5,B,Boron,10.81,Metalloid,Solid,13,2
+6,C,Carbon,12.011,Nonmetal,Solid,14,2
+7,N,Nitrogen,14.007,Nonmetal,Gas,15,2
+8,O,Oxygen,15.999,Nonmetal,Gas,16,2
+9,F,Fluorine,18.998,Halogen,Gas,17,2
+10,Ne,Neon,20.180,Noble gas,Gas,18,2
+11,Na,Sodium,22.990,Alkali metal,Solid,1,3
+12,Mg,Magnesium,24.305,Alkaline earth metal,Solid,2,3
+13,Al,Aluminium,26.982,Post-transition metal,Solid,13,3
+14,Si,Silicon,28.085,Metalloid,Solid,14,3
+15,P,Phosphorus,30.974,Nonmetal,Solid,15,3
+16,S,Sulfur,32.06,Nonmetal,Solid,16,3
+17,Cl,Chlorine,35.45,Halogen,Gas,17,3
+18,Ar,Argon,39.948,Noble gas,Gas,18,3
+19,K,Potassium,39.098,Alkali metal,Solid,1,4
+20,Ca,Calcium,40.078,Alkaline earth metal,Solid,2,4
+21,Sc,Scandium,44.956,Transition metal,Solid,3,4
+22,Ti,Titanium,47.867,Transition metal,Solid,4,4
+23,V,Vanadium,50.942,Transition metal,Solid,5,4
+24,Cr,Chromium,51.996,Transition metal,Solid,6,4
+25,Mn,Manganese,54.938,Transition metal,Solid,7,4
+26,Fe,Iron,55.845,Transition metal,Solid,8,4
+27,Co,Cobalt,58.933,Transition metal,Solid,9,4
+28,Ni,Nickel,58.693,Transition metal,Solid,10,4
+29,Cu,Copper,63.546,Transition metal,Solid,11,4
+30,Zn,Zinc,65.38,Transition metal,Solid,12,4
+31,Ga,Gallium,69.723,Post-transition metal,Solid,13,4
+32,Ge,Germanium,72.630,Metalloid,Solid,14,4
+33,As,Arsenic,74.922,Metalloid,Solid,15,4
+34,Se,Selenium,78.971,Nonmetal,Solid,16,4
+35,Br,Bromine,79.904,Halogen,Liquid,17,4
+36,Kr,Krypton,83.798,Noble gas,Gas,18,4
+37,Rb,Rubidium,85.468,Alkali metal,Solid,1,5
+38,Sr,Strontium,87.62,Alkaline earth metal,Solid,2,5
+39,Y,Yttrium,88.906,Transition metal,Solid,3,5
+40,Zr,Zirconium,91.224,Transition metal,Solid,4,5
+41,Nb,Niobium,92.906,Transition metal,Solid,5,5
+42,Mo,Molybdenum,95.95,Transition metal,Solid,6,5
+43,Tc,Technetium,98,Transition metal,Solid,7,5
+44,Ru,Ruthenium,101.07,Transition metal,Solid,8,5
+45,Rh,Rhodium,102.91,Transition metal,Solid,9,5
+46,Pd,Palladium,106.42,Transition metal,Solid,10,5
+47,Ag,Silver,107.87,Transition metal,Solid,11,5
+48,Cd,Cadmium,112.41,Transition metal,Solid,12,5
+49,In,Indium,114.82,Post-transition metal,Solid,13,5
+50,Sn,Tin,118.71,Post-transition metal,Solid,14,5
+51,Sb,Antimony,121.76,Metalloid,Solid,15,5
+52,Te,Tellurium,127.60,Metalloid,Solid,16,5
+53,I,Iodine,126.90,Halogen,Solid,17,5
+54,Xe,Xenon,131.29,Noble gas,Gas,18,5
+55,Cs,Cesium,132.91,Alkali metal,Solid,1,6
+56,Ba,Barium,137.33,Alkaline earth metal,Solid,2,6
+57,La,Lanthanum,138.91,Lanthanide,Solid,3,6
+58,Ce,Cerium,140.12,Lanthanide,Solid,,6
+59,Pr,Praseodymium,140.91,Lanthanide,Solid,,6
+60,Nd,Neodymium,144.24,Lanthanide,Solid,,6
+61,Pm,Promethium,145,Lanthanide,Solid,,6
+62,Sm,Samarium,150.36,Lanthanide,Solid,,6
+63,Eu,Europium,151.96,Lanthanide,Solid,,6
+64,Gd,Gadolinium,157.25,Lanthanide,Solid,,6
+65,Tb,Terbium,158.93,Lanthanide,Solid,,6
+66,Dy,Dysprosium,162.50,Lanthanide,Solid,,6
+67,Ho,Holmium,164.93,Lanthanide,Solid,,6
+68,Er,Erbium,167.26,Lanthanide,Solid,,6
+69,Tm,Thulium,168.93,Lanthanide,Solid,,6
+70,Yb,Ytterbium,173.05,Lanthanide,Solid,,6
+71,Lu,Lutetium,174.97,Lanthanide,Solid,,6
+72,Hf,Hafnium,178.49,Transition metal,Solid,4,6
+73,Ta,Tantalum,180.95,Transition metal,Solid,5,6
+74,W,Tungsten,183.84,Transition metal,Solid,6,6
+75,Re,Rhenium,186.21,Transition metal,Solid,7,6
+76,Os,Osmium,190.23,Transition metal,Solid,8,6
+77,Ir,Iridium,192.22,Transition metal,Solid,9,6
+78,Pt,Platinum,195.08,Transition metal,Solid,10,6
+79,Au,Gold,196.97,Transition metal,Solid,11,6
+80,Hg,Mercury,200.59,Transition metal,Liquid,12,6
+81,Tl,Thallium,204.38,Post-transition metal,Solid,13,6
+82,Pb,Lead,207.2,Post-transition metal,Solid,14,6
+83,Bi,Bismuth,208.98,Post-transition metal,Solid,15,6
+84,Po,Polonium,209,Metalloid,Solid,16,6
+85,At,Astatine,210,Halogen,Solid,17,6
+86,Rn,Radon,222,Noble gas,Gas,18,6
+87,Fr,Francium,223,Alkali metal,Solid,1,7
+88,Ra,Radium,226,Alkaline earth metal,Solid,2,7
+89,Ac,Actinium,227,Actinide,Solid,3,7
+90,Th,Thorium,232.04,Actinide,Solid,,7
+91,Pa,Protactinium,231.04,Actinide,Solid,,7
+92,U,Uranium,238.03,Actinide,Solid,,7
+93,Np,Neptunium,237,Actinide,Solid,,7
+94,Pu,Plutonium,244,Actinide,Solid,,7
+95,Am,Americium,243,Actinide,Solid,,7
+96,Cm,Curium,247,Actinide,Solid,,7
+97,Bk,Berkelium,247,Actinide,Solid,,7
+98,Cf,Californium,251,Actinide,Solid,,7
+99,Es,Einsteinium,252,Actinide,Solid,,7
+100,Fm,Fermium,257,Actinide,Solid,,7
+101,Md,Mendelevium,258,Actinide,Solid,,7
+102,No,Nobelium,259,Actinide,Solid,,7
+103,Lr,Lawrencium,266,Actinide,Solid,,7
+104,Rf,Rutherfordium,267,Transition metal,Solid,4,7
+105,Db,Dubnium,268,Transition metal,Solid,5,7
+106,Sg,Seaborgium,269,Transition metal,Solid,6,7
+107,Bh,Bohrium,270,Transition metal,Solid,7,7
+108,Hs,Hassium,277,Transition metal,Solid,8,7
+109,Mt,Meitnerium,278,Transition metal,Solid,9,7
+110,Ds,Darmstadtium,281,Transition metal,Solid,10,7
+111,Rg,Roentgenium,282,Transition metal,Solid,11,7
+112,Cn,Copernicium,285,Transition metal,Solid,12,7
+113,Nh,Nihonium,286,Post-transition metal,Solid,13,7
+114,Fl,Flerovium,289,Post-transition metal,Solid,14,7
+115,Mc,Moscovium,290,Post-transition metal,Solid,15,7
+116,Lv,Livermorium,293,Post-transition metal,Solid,16,7
+117,Ts,Tennessine,294,Halogen,Solid,17,7
+118,Og,Oganesson,294,Noble gas,Gas,18,7
